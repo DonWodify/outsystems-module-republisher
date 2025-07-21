@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+*.tmp
+sorted-modules.json
+sorted-modules-WodifyClient.json

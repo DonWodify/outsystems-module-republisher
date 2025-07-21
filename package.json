@@ -1,0 +1,16 @@
+{
+  "name": "outsystems-module-republisher",
+  "version": "1.0.0",
+  "description": "Automates republishing of OutSystems modules via Service Center using Puppeteer.",
+  "main": "src/outsystems-module-republisher.js",
+  "scripts": {
+    "start": "node src/outsystems-module-republisher.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "puppeteer": "^21.0.0"
+  }
+}
