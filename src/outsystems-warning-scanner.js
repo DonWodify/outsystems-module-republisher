@@ -211,7 +211,7 @@ async function scrapeModulesWithWarnings(page) {
                     const moduleName = await row.$eval("a.link span[data-name='espaceedit']", (span) => span.innerText);
 
                     // Skip modules with "Sandbox" in the name (case-insensitive) or starting with "Z" or "z"
-                    if (moduleName.toLowerCase().includes("sandbox") || /^[Zz]/.test(moduleName)) {
+                    if (moduleName.toLowerCase().includes("sandbox") /*|| /^[Zz]/.test(moduleName)*/) {
                         console.log(`Skipping excluded module: ${moduleName}`);
                         continue;
                     }
@@ -282,7 +282,7 @@ async function scrapeModulesWithWarnings(page) {
                     const moduleName = await row.$eval("a.link span[data-name='espaceedit']", (span) => span.innerText);
 
                     // Skip modules with "Sandbox" in the name (case-insensitive) or starting with "Z" or "z"
-                    if (moduleName.toLowerCase().includes("sandbox") || /^[Zz]/.test(moduleName)) {
+                    if (moduleName.toLowerCase().includes("sandbox") /*|| /^[Zz]/.test(moduleName)*/) {
                         console.log(`Skipping excluded module: ${moduleName}`);
                         continue;
                     }
