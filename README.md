@@ -12,7 +12,7 @@ Automates the republishing of OutSystems modules via Service Center using Puppet
    WODIFY_PASSWORD=your_password
    WODIFY_ENV=your_env
    ```
-4. Place your `sorted-modules.json` file in the root directory.
+4. Place your `sorted-modules.json` file in the root directory (this will auto create after a scan if missing).
 
 ## Usage
 
