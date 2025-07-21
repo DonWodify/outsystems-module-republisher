@@ -7,7 +7,7 @@
     "start": "node src/outsystems-module-republisher.js",
     "test": "echo \"No tests specified\" && exit 0"
   },
-  "author": "",
+  "author": "Don Monpas",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.0",
